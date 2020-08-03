@@ -1,0 +1,93 @@
+Experiment #0
+Time before STL: 19.779298178851604
+Time computing STL: 261.98362258821726
+Time second phase preprocess: 20.268133386969566
+Time for ML phase: 106.75208016484976
+Full pipeline: 408.7834081426263
+Full pipeline (with data load): 409.0180169939995
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+Experiment #1
+Time before STL: 17.845536440610886
+Time computing STL: 254.50792257487774
+Time second phase preprocess: 20.32054566591978
+Time for ML phase: 104.63436709344387
+Full pipeline: 397.3085873052478
+Full pipeline (with data load): 397.49419048428535
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+Experiment #2
+Time before STL: 18.097658216953278
+Time computing STL: 259.6059690192342
+Time second phase preprocess: 20.977660827338696
+Time for ML phase: 111.35823158174753
+Full pipeline: 410.03974053263664
+Full pipeline (with data load): 410.24318182468414
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+Experiment #3
+Time before STL: 18.32343576103449
+Time computing STL: 262.027809381485
+Time second phase preprocess: 20.38237988203764
+Time for ML phase: 105.84507955610752
+Full pipeline: 406.57891765236855
+Full pipeline (with data load): 406.77122789621353
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+Experiment #4
+Time before STL: 18.503645949065685
+Time computing STL: 271.7296096906066
+Time second phase preprocess: 20.65437811613083
+Time for ML phase: 105.76486699283123
+Full pipeline: 416.6526962816715
+Full pipeline (with data load): 416.83575335144997
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+
+
+----------------------
+Experiment #0
+Time before STL: 19.444878235459328
+Time computing STL: 276.7746143117547
+Time second phase preprocess: 21.164757877588272
+Time for ML phase: 114.48225277662277
+Full pipeline: 431.8667017817497
+Full pipeline (with data load): 432.07453940063715
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+Experiment #1
+Time before STL: 18.907732889056206
+Time computing STL: 274.46513576060534
+Time second phase preprocess: 21.034320652484894
+Time for ML phase: 114.92821338772774
+Full pipeline: 429.3356038108468
+Full pipeline (with data load): 429.5503918454051
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+Experiment #2
+Time before STL: 18.881070986390114
+Time computing STL: 264.44816372543573
+Time second phase preprocess: 20.139681473374367
+Time for ML phase: 102.15352596342564
+Full pipeline: 405.62264098227024
+Full pipeline (with data load): 405.82270654290915
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+Experiment #3
+Time before STL: 18.12415438145399
+Time computing STL: 247.68039540201426
+Time second phase preprocess: 20.176804199814796
+Time for ML phase: 101.57370825856924
+Full pipeline: 387.5552544668317
+Full pipeline (with data load): 387.7517123967409
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+Experiment #4
+Time before STL: 18.163621105253696
+Time computing STL: 245.09763401001692
+Time second phase preprocess: 20.217225342988968
+Time for ML phase: 102.99615054577589
+Full pipeline: 386.474848985672
+Full pipeline (with data load): 386.66766184568405
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318

@@ -1,0 +1,209 @@
+/home/fei/svo0175/miniconda3/lib/python3.7/site-packages/treelite/gallery/__init__.py:7: FutureWarning: treelite.gallery.sklearn has been moved to treelite.sklearn. treelite.gallery.sklearn will be removed in version 1.1.
+  FutureWarning)
+/home/fei/svo0175/miniconda3/lib/python3.7/site-packages/treelite/gallery/sklearn/__init__.py:9: FutureWarning: treelite.gallery.sklearn has been moved to treelite.sklearn. treelite.gallery.sklearn will be removed in version 1.1.
+  FutureWarning)
+Experiment #0
+/home/fei/svo0175/miniconda3/lib/python3.7/site-packages/fsspec/implementations/local.py:33: FutureWarning: The default value of auto_mkdir=True has been deprecated and will be changed to auto_mkdir=False by default in a future release.
+  FutureWarning,
+Time before STL: 1.3705295324325562
+Time computing STL: 239.77547881007195
+Time second phase preprocess: 2.152451328933239
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.828051432967186
+Full pipeline: 249.1266352236271
+Full pipeline (with data load): 251.03692284971476
+Experiment #1
+Time before STL: 0.8498692288994789
+Time computing STL: 174.86788057535887
+Time second phase preprocess: 8.72794272005558
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.778397917747498
+Full pipeline: 190.22421871870756
+Full pipeline (with data load): 190.2570784986019
+Experiment #2
+Time before STL: 0.8055977150797844
+Time computing STL: 190.40807682275772
+Time second phase preprocess: 9.005193248391151
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.756363995373249
+Full pipeline: 205.97536797076464
+Full pipeline (with data load): 206.00763197988272
+Experiment #3
+Time before STL: 0.7897960692644119
+Time computing STL: 191.05569481104612
+Time second phase preprocess: 9.250684574246407
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.8024957329034805
+Full pipeline: 206.8987980633974
+Full pipeline (with data load): 206.9291889294982
+Experiment #4
+Time before STL: 0.8277413919568062
+Time computing STL: 183.5002907961607
+Time second phase preprocess: 8.152740761637688
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.683391317725182
+Full pipeline: 198.16431812942028
+Full pipeline (with data load): 198.19672495871782
+
+
+--------------
+/home/fei/svo0175/miniconda3/lib/python3.7/site-packages/treelite/gallery/__init__.py:7: FutureWarning: treelite.gallery.sklearn has been moved to treelite.sklearn. treelite.gallery.sklearn will be removed in version 1.1.
+  FutureWarning)
+/home/fei/svo0175/miniconda3/lib/python3.7/site-packages/treelite/gallery/sklearn/__init__.py:9: FutureWarning: treelite.gallery.sklearn has been moved to treelite.sklearn. treelite.gallery.sklearn will be removed in version 1.1.
+  FutureWarning)
+Experiment #0
+/home/fei/svo0175/miniconda3/lib/python3.7/site-packages/fsspec/implementations/local.py:33: FutureWarning: The default value of auto_mkdir=True has been deprecated and will be changed to auto_mkdir=False by default in a future release.
+  FutureWarning,
+Time before STL: 1.4095450937747955
+Time computing STL: 230.2033293619752
+Time second phase preprocess: 2.012325741350651
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.79086472094059
+Full pipeline: 239.4161800518632
+Full pipeline (with data load): 241.43700882047415
+MAE      2.549056e+03
+MSE      1.698457e+07
+MAPE     3.403833e+00
+SMAPE    3.321059e+00
+dtype: float64
+Experiment #1
+Time before STL: 0.7893906757235527
+Time computing STL: 168.5845788642764
+Time second phase preprocess: 1.409879058599472
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.819606505334377
+Full pipeline: 176.60357666015625
+Full pipeline (with data load): 176.634698882699
+MAE      2.554750e+03
+MSE      1.686476e+07
+MAPE     3.420779e+00
+SMAPE    3.336756e+00
+dtype: float64
+Experiment #2
+Time before STL: 0.7800942957401276
+Time computing STL: 171.4371210411191
+Time second phase preprocess: 1.4737705662846565
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.818083189427853
+Full pipeline: 179.50918928533792
+Full pipeline (with data load): 179.54070060700178
+MAE      2.524479e+03
+MSE      1.670292e+07
+MAPE     3.377563e+00
+SMAPE    3.285677e+00
+dtype: float64
+Experiment #3
+Time before STL: 0.8133457601070404
+Time computing STL: 171.16450756788254
+Time second phase preprocess: 1.4511045143008232
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.723735861480236
+Full pipeline: 179.1528212055564
+Full pipeline (with data load): 179.1858235001564
+MAE      2.555306e+03
+MSE      1.699404e+07
+MAPE     3.445837e+00
+SMAPE    3.362163e+00
+dtype: float64
+Experiment #4
+Time before STL: 0.7672348245978355
+Time computing STL: 170.20379301160574
+Time second phase preprocess: 1.5662365555763245
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.807949759066105
+Full pipeline: 178.3453302308917
+Full pipeline (with data load): 178.38967469334602
+MAE      2.552149e+03
+MSE      1.686568e+07
+MAPE     3.415840e+00
+SMAPE    3.329098e+00
+dtype: float64
+
+
+--------------
+/home/fei/svo0175/miniconda3/lib/python3.7/site-packages/treelite/gallery/__init__.py:7: FutureWarning: treelite.gallery.sklearn has been moved to treelite.sklearn. treelite.gallery.sklearn will be removed in version 1.1.
+  FutureWarning)
+/home/fei/svo0175/miniconda3/lib/python3.7/site-packages/treelite/gallery/sklearn/__init__.py:9: FutureWarning: treelite.gallery.sklearn has been moved to treelite.sklearn. treelite.gallery.sklearn will be removed in version 1.1.
+  FutureWarning)
+Experiment #0
+/home/fei/svo0175/miniconda3/lib/python3.7/site-packages/fsspec/implementations/local.py:33: FutureWarning: The default value of auto_mkdir=True has been deprecated and will be changed to auto_mkdir=False by default in a future release.
+  FutureWarning,
+Time before STL: 1.5338151827454567
+Time computing STL: 223.88884449750185
+Time second phase preprocess: 2.0950492545962334
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.755817800760269
+Full pipeline: 233.27366212755442
+Full pipeline (with data load): 235.35277514904737
+MAE      2.541153e+03
+MSE      1.696866e+07
+MAPE     3.365193e+00
+SMAPE    3.272904e+00
+dtype: float64
+Experiment #1
+Time before STL: 0.7948743104934692
+Time computing STL: 171.34440237283707
+Time second phase preprocess: 1.4463649839162827
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.84378519654274
+Full pipeline: 179.4295502603054
+Full pipeline (with data load): 179.4613476395607
+MAE      2.539694e+03
+MSE      1.679442e+07
+MAPE     3.372456e+00
+SMAPE    3.281821e+00
+dtype: float64
+Experiment #2
+Time before STL: 0.8367070555686951
+Time computing STL: 171.91033116728067
+Time second phase preprocess: 1.4904008507728577
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.825983591377735
+Full pipeline: 180.06355173885822
+Full pipeline (with data load): 180.09638072550297
+MAE      2.547984e+03
+MSE      1.705374e+07
+MAPE     3.376242e+00
+SMAPE    3.292948e+00
+dtype: float64
+Experiment #3
+Time before STL: 0.8009127750992775
+Time computing STL: 170.18951416015625
+Time second phase preprocess: 1.440661460161209
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.747217744588852
+Full pipeline: 178.17843509465456
+Full pipeline (with data load): 178.21066594868898
+MAE      2.547126e+03
+MSE      1.689755e+07
+MAPE     3.394226e+00
+SMAPE    3.308340e+00
+dtype: float64
+Experiment #4
+Time before STL: 0.8064157292246819
+Time computing STL: 163.4177632406354
+Time second phase preprocess: 1.5920575335621834
+gpu_measure.py:223: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.637977167963982
+Full pipeline: 171.45434161275625
+Full pipeline (with data load): 171.48606005311012
+MAE      2.548229e+03
+MSE      1.712243e+07
+MAPE     3.408762e+00
+SMAPE    3.325860e+00
+dtype: float64
