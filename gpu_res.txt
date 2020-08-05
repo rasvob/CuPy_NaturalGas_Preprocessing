@@ -207,3 +207,86 @@ MSE      1.712243e+07
 MAPE     3.408762e+00
 SMAPE    3.325860e+00
 dtype: float64
+
+
+----------------
+Experiment #0                                                                                                                                                                                                                      
+/home/fei/svo0175/miniconda3/lib/python3.7/site-packages/fsspec/implementations/local.py:33: FutureWarning: The default value of auto_mkdir=True has been deprecated and will be changed to auto_mkdir=False by default in a future
+ release.                                                                                                                                                                                                                          
+  FutureWarning,                                                                                                                                                                                                                   
+Data shape: (56928, 33)                                                                                                                                                                                                            
+Time before STL: 1.4392946138978004                                                                                                                                                                                                
+Time computing STL: 229.35206623375416                                                                                                                                                                                             
+Time second phase preprocess: 2.1152595579624176                                                                                                                                                                                   
+gpu_measure.py:225: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.                                                                                                             
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)                                                                                                                                    
+Time for ML phase: 5.8572195917367935                                                                                                                                                                                              
+Full pipeline: 238.7639649361372                                                                                                                                                                                                   
+Full pipeline (with data load): 240.80201192200184                                                                                                                                                                                 
+MAE      2.534186e+03                                                                                                                                                                                                              
+MSE      1.693418e+07
+MAPE     3.363776e+00
+SMAPE    3.272365e+00
+dtype: float64
+Experiment #1
+Data shape: (56928, 33)
+Time before STL: 0.8074890375137329
+Time computing STL: 172.78055481612682
+Time second phase preprocess: 1.550890937447548
+gpu_measure.py:225: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.786668315529823
+Full pipeline: 180.92571664601564
+Full pipeline (with data load): 180.95783387869596
+MAE      2.546730e+03
+MSE      1.697687e+07
+MAPE     3.404572e+00
+SMAPE    3.316477e+00
+dtype: float64
+
+Experiment #2                                                                                                                                                                                                               [10/50]
+Data shape: (56928, 33)                                                                                                                                                                                                            
+Time before STL: 0.7802616357803345
+Time computing STL: 173.61756475269794
+Time second phase preprocess: 1.4464427009224892
+gpu_measure.py:225: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.813231661915779
+Full pipeline: 181.65761190652847
+Full pipeline (with data load): 181.68877293914557
+MAE      2.544209e+03
+MSE      1.682768e+07
+MAPE     3.388870e+00
+SMAPE    3.296973e+00
+dtype: float64
+Experiment #3
+Data shape: (56928, 33)
+Time before STL: 0.8102327138185501
+Time computing STL: 171.90921518206596
+Time second phase preprocess: 1.4985610097646713
+gpu_measure.py:225: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.759909525513649
+Full pipeline: 179.97803896665573
+Full pipeline (with data load): 180.0101796761155
+MAE      2.554576e+03
+MSE      1.703490e+07
+MAPE     3.409166e+00
+SMAPE    3.319557e+00
+dtype: float64
+
+Experiment #4
+Data shape: (56928, 33)
+Time before STL: 0.7786754667758942
+Time computing STL: 173.17851296067238
+Time second phase preprocess: 1.6037445589900017
+gpu_measure.py:225: UserWarning: Setting the random seed does not fully guarantee the exact same results at this time.
+  alg = RandomForestRegressor(n_estimators=5, accuracy_metric='mse', max_features=1.0, seed=14)
+Time for ML phase: 5.845997586846352
+Full pipeline: 181.40704657882452
+Full pipeline (with data load): 181.45593483746052
+MAE      2.544477e+03
+MSE      1.688084e+07
+MAPE     3.388910e+00
+SMAPE    3.298699e+00
+dtype: float64
