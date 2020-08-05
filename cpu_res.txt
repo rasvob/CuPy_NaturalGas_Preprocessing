@@ -91,3 +91,56 @@ Full pipeline: 386.474848985672
 Full pipeline (with data load): 386.66766184568405
            MAE           MSE      MAPE     SMAPE        R2  Oriflame
 0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+
+------------------
+Experiment #0                                   
+Data shape: (56928, 33)              
+Time before STL: 18.976108968257904
+Time computing STL: 248.2852548211813             
+Time second phase preprocess: 20.480927228927612                    
+Time for ML phase: 105.49854994565248                               
+Full pipeline: 393.2410776913166
+Full pipeline (with data load): 393.45760299265385
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+Experiment #1                                   
+Data shape: (56928, 33)              
+Time before STL: 18.37140917032957
+Time computing STL: 245.88051732629538            
+Time second phase preprocess: 20.421910099685192                    
+Time for ML phase: 104.80319387465715                               
+Full pipeline: 389.4772401303053
+Full pipeline (with data load): 389.67593017965555
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+Experiment #2                                   
+Data shape: (56928, 33)              
+Time before STL: 18.36919131875038
+Time computing STL: 245.8140631839633             
+Time second phase preprocess: 20.423782519996166                    
+Time for ML phase: 116.45366823673248                               
+Full pipeline: 401.0609221458435
+Full pipeline (with data load): 401.24883077293634
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+
+Experiment #3                                     
+Data shape: (56928, 33)                                             
+Time before STL: 18.411709509789944                                 
+Time computing STL: 245.29817186295986
+Time second phase preprocess: 20.437616117298603  
+Time for ML phase: 105.218446880579                                 
+Full pipeline: 389.36618730425835                                   
+Full pipeline (with data load): 389.5563946515322
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
+Experiment #4                                     
+Data shape: (56928, 33)                                             
+Time before STL: 18.399629525840282                                 
+Time computing STL: 244.91575602442026
+Time second phase preprocess: 20.4639161080122    
+Time for ML phase: 104.19553366303444                               
+Full pipeline: 387.97505198419094                                   
+Full pipeline (with data load): 388.15695384144783
+           MAE           MSE      MAPE     SMAPE        R2  Oriflame
+0  2455.499499  1.591439e+07  3.300442  3.194474  0.997159  0.975318
